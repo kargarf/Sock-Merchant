@@ -34,16 +34,9 @@ int sockMerchant(int n, vector<int> ar) {
 
 int main()
 {
-    vector<int> v;
-    int a;
-    int n;
-    for(int i = 0; i < n; i++)
-    {
-    	cin >> a; 
-    	v[i] = a;
-    }
+    vector<int> v = {1,2,2,2,3,3,4,5,6,6};
 
-    int result = sockMerchant(n, v);
+    int result = sockMerchant(10, v);
     cout << result << endl;
 
     return 0;
